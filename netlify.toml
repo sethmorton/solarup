@@ -1,7 +1,7 @@
 [build]
   base = "/frontend" # Set the working directory to /frontend
-  command = "npm i --force && next export" # Use next export instead of next build
-  publish = "/frontend/out" # Set the directory to publish (output of the export)
+  command = "npm i --force && next build" # Use next export instead of next build
+  publish = "./out" # Set the directory to publish (output of the export)
 
 [build.environment]
   NODE_VERSION = "14" # Set the Node.js version, adjust as needed
