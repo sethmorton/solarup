@@ -1,4 +1,4 @@
 [build]
   base = "/frontend" # Set the working directory to /frontend
-  command = "npm i --force && npm run build && npm run export" # Use next export instead of next build
-  publish = "/out" # Set the directory to publish (output of the export)
+  command = "npm i --force && npm run export" # Updated command
+  publish = "/out" # Updated publish directory
