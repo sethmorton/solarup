@@ -2,15 +2,3 @@
   base = "/frontend" # Set the working directory to /frontend
   command = "npm i --force && npm run build && npm run export" # Use next export instead of next build
   publish = "/out" # Set the directory to publish (output of the export)
-
-[build.environment]
-  NODE_VERSION = "14" # Set the Node.js version, adjust as needed
-
-[context.production]
-  command = "npm run build && npm run export" # Specify the build command for the production context
-
-[context.deploy-preview]
-  command = "npm run build && npm run export" # Specify the build command for deploy preview context
-
-[context.branch-deploy]
-  command = "npm run build && npm run export" # Specify the build command for branch deploy context
