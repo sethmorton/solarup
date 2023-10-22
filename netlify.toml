@@ -1,0 +1,21 @@
+[
+build
+]
+  base    = "/frontend"
+  command = "npm install -f"
+  publish = "out"
+
+[
+build.environment
+]
+  NPM_FLAGS = "--force"
+
+[[
+plugins
+]]
+  package = "netlify-plugin-force-install"
+
+[
+context.production.environment
+]
+  NEXT_TELEMETRY_DISABLED = 1
