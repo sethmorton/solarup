@@ -15,5 +15,5 @@ SolarUp helps businesses turn their parking lots into solar power generators. We
 - Backend: Python, FastAPI
 - Data: NREL API, Bright Data API
 - Hosting: Platform.sh
-- 
+
 Created with ☀️ to help make parking lots more sustainable
