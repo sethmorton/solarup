@@ -1,3 +1,19 @@
-# SolarUpWith.Us
+# SolarUp 🌞
 
-SolarUp offers a free solar calculator that can provide you with an estimate of solar panel installation costs and potential savings. It takes into account factors such as your location, roof type, and energy usage.
+SolarUp helps businesses turn their parking lots into solar power generators. We calculate how much money you could make by installing solar panels over your parking spaces.
+
+## What We Do
+
+- Calculate potential earnings from solar panel installations
+- Provide real-time solar energy data
+- Help businesses make sustainable choices
+- Make complex energy data easy to understand
+
+## Built With
+
+- Frontend: React, Tailwind CSS, Next.js
+- Backend: Python, FastAPI
+- Data: NREL API, Bright Data API
+- Hosting: Platform.sh
+- 
+Created with ☀️ to help make parking lots more sustainable
